@@ -9,12 +9,14 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 library(tidyverse)
 file <- "01_table.csv"
 df <- read_csv(file)
+options(scipen=999)
 ```
 
 ```{r}
 df %>% 
   ggplot(aes(year, value, z = paste(name, value)))+
   geom_point()+
+  scale_y_log10()+
   theme_bw() ->
   plot
 
