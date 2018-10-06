@@ -1,0 +1,50 @@
+name: ''
+navbar:
+  left:
+  - icon: fa-home
+    href: index.html
+  - text: руководители
+    href: 12_officials.html
+  - text: показатели
+    menu:
+      - text: Социально-экономическая характеристика региона
+        href: 01_table.html
+      - text: Основные показатели налоговой базы по администрируемым доходам
+        href: 02_table.html
+      - text: Льготы по отдельным администрируемым доходам
+        href: 03_table.html
+      - text: Основные показатели контрольной работы налоговых органов
+        href: 04_table.html
+      - text: Поступления основных администрируемых доходов в структуре консолидированного бюджета Российской Федерации
+        href: 05_table.html
+      - text: Поступления администрируемых доходов в консолидированный бюджет Российской Федерации в структуре основных видов экономической деятельности
+        href: 06_table.html
+      - text: Задолженность по налогам и сборам в консолидированный бюджет Российской Федерации
+        href: 07_table.html
+      - text: Задолженность по налогам и сборам по основным видам экономической деятельности
+        href: 08_table.html
+      - text: Показатели налоговой нагрузки
+        href: 09_table.html
+      - text: Показатели налоговой нагрузки по отдельным видам экономической деятельности
+        href: 10_table.html
+      - text: Оценка и прогнозирование поступлений отдельных налогов
+        href: 11_table.html
+  - text: социально-экономической характеристика региона
+    href: 13_visualisation.html  
+      
+output_dir: docs
+output:
+  html_document:
+    theme: spacelab
+    highlight: pygments
+    toc: no
+    toc_position: right
+    toc_depth: 1
+    toc_float: yes
+    smooth_scroll: no
+    df_print: paged
+    include:
+      after_body: footer.html
+    lib_dir: site_libs
+    self_contained: no
+

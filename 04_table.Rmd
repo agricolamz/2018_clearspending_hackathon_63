@@ -1,0 +1,35 @@
+---
+title: "Основные показатели контрольной работы налоговых органов"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(tidyverse)
+file <- "04_table.csv"
+```
+
+Данные доступны [здесь](`r paste0("https://raw.githubusercontent.com/agricolamz/2018_clearspending_hackathon_63/master/", file)`).
+
+# {.tabset .tabset-fade .tabset-pills}
+## 2014
+```{r}
+selected_y <- 2014
+read_csv(file) %>% 
+  filter(year == selected_y)
+```
+
+## 2015
+```{r}
+selected_y <- 2015
+read_csv(file) %>% 
+  filter(year == selected_y)
+```
+
+## 2016
+```{r}
+selected_y <- 2016
+read_csv(file) %>% 
+  filter(year == selected_y)
+```

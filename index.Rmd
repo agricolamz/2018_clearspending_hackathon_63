@@ -1,0 +1,10 @@
+---
+title: "Визуальный налоговый паспорт Республики Адыгеи"
+output:
+  html_document:
+    toc: false
+editor_options: 
+  chunk_output_type: console
+---
+
+Здесь будет нарядный текст про то, что это за сайт и откуда пришли данные.

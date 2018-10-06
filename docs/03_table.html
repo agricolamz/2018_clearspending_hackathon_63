@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Льготы по отдельным администрируемым доходам</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/spacelab.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
+<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 52px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+
+.section h2 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h3 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h4 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h5 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+.section h6 {
+  padding-top: 57px;
+  margin-top: -57px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="12_officials.html">руководители</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    показатели
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="01_table.html">Социально-экономическая характеристика региона</a>
+    </li>
+    <li>
+      <a href="02_table.html">Основные показатели налоговой базы по администрируемым доходам</a>
+    </li>
+    <li>
+      <a href="03_table.html">Льготы по отдельным администрируемым доходам</a>
+    </li>
+    <li>
+      <a href="04_table.html">Основные показатели контрольной работы налоговых органов</a>
+    </li>
+    <li>
+      <a href="05_table.html">Поступления основных администрируемых доходов в структуре консолидированного бюджета Российской Федерации</a>
+    </li>
+    <li>
+      <a href="06_table.html">Поступления администрируемых доходов в консолидированный бюджет Российской Федерации в структуре основных видов экономической деятельности</a>
+    </li>
+    <li>
+      <a href="07_table.html">Задолженность по налогам и сборам в консолидированный бюджет Российской Федерации</a>
+    </li>
+    <li>
+      <a href="08_table.html">Задолженность по налогам и сборам по основным видам экономической деятельности</a>
+    </li>
+    <li>
+      <a href="09_table.html">Показатели налоговой нагрузки</a>
+    </li>
+    <li>
+      <a href="10_table.html">Показатели налоговой нагрузки по отдельным видам экономической деятельности</a>
+    </li>
+    <li>
+      <a href="11_table.html">Оценка и прогнозирование поступлений отдельных налогов</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="13_visualisation.html">социально-экономической характеристика региона</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Льготы по отдельным администрируемым доходам</h1>
+
+</div>
+
+
+<p>Данные доступны <a href="https://raw.githubusercontent.com/agricolamz/2018_clearspending_hackathon_63/master/03_table.csv">здесь</a>.</p>
+<div id="section" class="section level1 tabset tabset-fade tabset-pills">
+<h1></h1>
+<div id="section-1" class="section level2">
+<h2>2014</h2>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":["name"],"name":[1],"type":["chr"],"align":["left"]},{"label":["row_code"],"name":[2],"type":["int"],"align":["right"]},{"label":["value"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["per_with_previous_year"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["year"],"name":[5],"type":["int"],"align":["right"]}],"data":[{"1":"ПО НАЛОГУ НА ПРИБЫЛЬ ОРГАНИЗАЦИЙ","2":"301","3":"23.55","4":"109.8","5":"2014"},{"1":"В связи с установлением законодательными (представительными) органами субъектов Российской Федерации пониженной ставки налога для отдельных категорий налогоплательщиков","2":"302","3":"0.00","4":"0.0","5":"2014"},{"1":"ПО НАЛОГУ НА ИМУЩЕСТВО ОРГАНИЗАЦИЙ","2":"303","3":"66.17","4":"92.2","5":"2014"},{"1":"По льготам, установленным ст. 381, 385.1 НК РФ, по льготам, предоставляемым в соответствии со ст. 7 НК РФ международными договорами Российской Федерации и в соответствии с п.7 ст.346.35 НК РФ инвесторам по СРП","2":"304","3":"15.84","4":"69.5","5":"2014"},{"1":"По льготам,установленным в соответствии с п.2 ст.372 НК РФ органами законодательной власти субъектов РФ","2":"305","3":"50.33","4":"102.8","5":"2014"},{"1":"ПО НАЛОГУ НА ДОБЫЧУ ПОЛЕЗНЫХ ИСКОПАЕМЫХ","2":"306","3":"0.05","4":"34.3","5":"2014"},{"1":"ПО ЗЕМЕЛЬНОМУ НАЛОГУ","2":"307","3":"63.41","4":"105.9","5":"2014"},{"1":"ПО ТРАНСПОРТНОМУ НАЛОГУ","2":"308","3":"49.30","4":"111.8","5":"2014"},{"1":"По льготам, установленным законодательством субъектов Российской Федерации","2":"309","3":"49.29","4":"111.7","5":"2014"},{"1":"ПО НАЛОГУ НА ИМУЩЕСТВО ФИЗИЧЕСКИХ ЛИЦ","2":"310","3":"35.90","4":"100.3","5":"2014"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+</div>
+<div id="section-2" class="section level2">
+<h2>2015</h2>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":["name"],"name":[1],"type":["chr"],"align":["left"]},{"label":["row_code"],"name":[2],"type":["int"],"align":["right"]},{"label":["value"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["per_with_previous_year"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["year"],"name":[5],"type":["int"],"align":["right"]}],"data":[{"1":"ПО НАЛОГУ НА ПРИБЫЛЬ ОРГАНИЗАЦИЙ","2":"301","3":"35.8","4":"151.9","5":"2015"},{"1":"В связи с установлением законодательными (представительными) органами субъектов Российской Федерации пониженной ставки налога для отдельных категорий налогоплательщиков","2":"302","3":"0.0","4":"0.0","5":"2015"},{"1":"ПО НАЛОГУ НА ИМУЩЕСТВО ОРГАНИЗАЦИЙ","2":"303","3":"126.2","4":"190.8","5":"2015"},{"1":"По льготам, установленным ст. 381, 385.1 НК РФ, по льготам, предоставляемым в соответствии со ст. 7 НК РФ международными договорами Российской Федерации и в соответствии с п.7 ст.346.35 НК РФ инвесторам по СРП","2":"304","3":"82.3","4":"519.6","5":"2015"},{"1":"По льготам,установленным в соответствии с п.2 ст.372 НК РФ органами законодательной власти субъектов РФ","2":"305","3":"43.9","4":"87.2","5":"2015"},{"1":"ПО ЗЕМЕЛЬНОМУ НАЛОГУ","2":"306","3":"0.0","4":"0.0","5":"2015"},{"1":"по земельному налогу по юридическим лицам","2":"307","3":"0.0","4":"0.0","5":"2015"},{"1":"по земельному налогу по физическим лицам","2":"308","3":"0.0","4":"0.0","5":"2015"},{"1":"по льготам, установленным в соответствии с нормативными правовыми актами представительных органов муниципальных образований (законами городов федерального значения Москвы и Санкт- Петербурга)","2":"309","3":"0.0","4":"0.0","5":"2015"},{"1":"ПО ТРАНСПОРТНОМУ НАЛОГУ","2":"310","3":"67.8","4":"137.4","5":"2015"},{"1":"по транспортному налогу по организациям","2":"311","3":"0.0","4":"3.7","5":"2015"},{"1":"по транспортному налогу по физическим лицам","2":"312","3":"67.7","4":"138.3","5":"2015"},{"1":"По льготам, установленным законодательством субъектов Российской Федерации","2":"313","3":"0.0","4":"136.0","5":"2015"},{"1":"ПО НАЛОГУ НА ИМУЩЕСТВО ФИЗИЧЕСКИХ ЛИЦ","2":"314","3":"0.0","4":"0.0","5":"2015"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+</div>
+<div id="section-3" class="section level2">
+<h2>2016</h2>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":["name"],"name":[1],"type":["chr"],"align":["left"]},{"label":["row_code"],"name":[2],"type":["int"],"align":["right"]},{"label":["value"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["per_with_previous_year"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["year"],"name":[5],"type":["int"],"align":["right"]}],"data":[{"1":"ПО НАЛОГУ НА ПРИБЫЛЬ ОРГАНИЗАЦИЙ","2":"301","3":"281.40","4":"786.90","5":"2016"},{"1":"В связи с установлением законодательными (представительными) органами субъектов Российской Федерации пониженной ставки налога для отдельных категорий налогоплательщиков","2":"302","3":"0.00","4":"0.00","5":"2016"},{"1":"ПО НАЛОГУ НА ИМУЩЕСТВО ОРГАНИЗАЦИЙ","2":"303","3":"135.02","4":"106.96","5":"2016"},{"1":"По льготам, установленным ст. 381, 385.1 НК РФ, по льготам, предоставляемым в соответствии со ст. 7 НК РФ международными договорами Российской Федерации и в соответствии с п.7 ст.346.35 НК РФ инвесторам по СРП","2":"304","3":"103.94","4":"126.24","5":"2016"},{"1":"По льготам,установленным в соответствии с п.2 ст.372 НК РФ органами законодательной власти субъектов РФ","2":"305","3":"31.08","4":"70.81","5":"2016"},{"1":"ПО ЗЕМЕЛЬНОМУ НАЛОГУ","2":"306","3":"77.81","4":"90.49","5":"2016"},{"1":"по земельному налогу по юридическим лицам","2":"307","3":"65.40","4":"88.29","5":"2016"},{"1":"по земельному налогу по физическим лицам","2":"308","3":"12.41","4":"104.17","5":"2016"},{"1":"по льготам, установленным в соответствии с нормативными правовыми актами представительных органов муниципальных образований (законами городов федерального значения Москвы, Санкт- Петербурга и Севастополя)","2":"309","3":"48.88","4":"103.28","5":"2016"},{"1":"ПО ТРАНСПОРТНОМУ НАЛОГУ","2":"310","3":"75.18","4":"110.96","5":"2016"},{"1":"по транспортному налогу по организациям","2":"311","3":"4.19","4":"34891.67","5":"2016"},{"1":"по транспортному налогу по физическим лицам","2":"312","3":"71.00","4":"104.80","5":"2016"},{"1":"По льготам, установленным законодательством субъектов Российской Федерации","2":"313","3":"68.11","4":"101.58","5":"2016"},{"1":"ПО НАЛОГУ НА ИМУЩЕСТВО ФИЗИЧЕСКИХ ЛИЦ","2":"314","3":"60.71","4":"134.24","5":"2016"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+</div>
+</div>
+
+<br><br><br>
+<p><center> &copy; Г. Мороз 2018 с помощью RMarkdown. Исходный код на 
+<a href="https://github.com/agricolamz/2018_clearspending_hackathon_63"> GitHub <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"  style="width:30px;height:30px;border:0"></a></center> </p>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
