@@ -4,3 +4,21 @@ editor_options:
   chunk_output_type: console
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+library(tidyverse)
+file <- "01_table.csv"
+df <- read_csv(file)
+```
+
+```{r}
+df %>% 
+  ggplot(aes(year, value, z = paste(name, value)))+
+  geom_point()+
+  theme_bw() ->
+  plot
+
+plotly::ggplotly(plot, tooltip = "z")
+
+```
+
